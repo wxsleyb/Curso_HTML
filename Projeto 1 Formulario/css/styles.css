@@ -1,0 +1,123 @@
+/* reset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0ebf8;
+}
+
+h1, h2, h3, h4, h5 {
+    color: #333;
+}
+
+p, label {
+    color: #444;
+}
+
+input {
+    border: 1px solid transparent;
+    border-bottom: 1px solid #CCC;
+    padding: 10px 0px;
+}
+
+input[type=text], input[type=number], input[type=date], input[type=file]{
+    width: 400px;
+}
+
+textarea {
+    padding: 10px, 5px;
+    width: 400px;
+}
+
+/* cabeçalho da página */
+.header {
+    height: 160px;
+    padding: 20px;
+    background-color: rgb(76, 7, 110);
+    text-align: center;
+}
+
+.header h3 {
+    color: #fff;
+    margin-top: 0;
+}
+
+/* container do formulário */
+.form-container {
+    background-color: #fff;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -50px;
+}
+
+/* cabeçalho do formulario */ 
+.form-header {
+    border-bottom: 1px solid #dfdfdf;
+    height: 33px;
+}
+
+.form-header p{
+    color:rgb(76, 7, 110);
+    border-bottom: 2px solid rgb(76, 7, 110);
+    width: 100px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    text-transform: uppercase;
+    height: 33px;
+    line-height: 33px;
+}
+
+/* corpo formulário */
+
+.form-body {
+    padding: 30px;
+}
+
+.form-title {
+    margin: 0;
+}
+
+.required-field {
+    color: red;
+}
+
+.box-input {
+    margin-bottom: 30px;
+}
+
+.block {
+    display: block;
+}
+
+.optional-box {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.option-list {
+    padding-left: 0;
+}
+
+.optional-list {
+    list-style: none;
+}
+
+.btn-submit {
+    background-color: rgb(76, 7, 110);
+    color: #fff;
+    border: 2px solid transparent;
+    width: 150px;
+    height: 50px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.btn-submit:hover {
+    background-color: #fff;
+    border-color: rgb(76, 7, 110);
+    color: rgb(76, 7, 110);
+}
